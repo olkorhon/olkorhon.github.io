@@ -1,0 +1,77 @@
+body {  
+	margin-top: 0px;
+	background-image: url("images/bg.jpg");
+	background-repeat: no-repeat;
+	background-position: top;	
+	background-size: cover;
+}
+
+h1 { 
+	background-color: #111111;
+	font-family: "Lucida Sans Unicode";
+	font-style: bold;
+	color: #0e3f34;
+	font-size: 64;
+	padding-left: 50px;
+	margin-top: 0px;  
+	margin-bottom: 0px;
+	padding-bottom: 20;
+	padding-top: 20;
+}
+
+header {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h3 { color: #abdbec; }
+p  { color: #abdbec; }
+
+div.flex-container {
+    display: -webkit-flex;
+    display: flex;
+	justify-content: center;
+}
+div.flex-content {
+	flex-direction: row | row-reverse;
+	width: 1200;
+	height: 700;
+	margin: 0px;
+}
+
+/* Style the list */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	/*border: 1px solid #ccc;*/
+    background-color: #222222;
+}
+
+/* Float the list items side by side */
+nav ul li {float: left;}
+
+/* Style the links inside the list items */
+nav ul li a {
+    display: inline-block;
+    color: #2996bc;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 28px;
+}
+
+nav ul li a:hover          {background-color: #555555;} /* Change background color of links on hover */
+nav ul li a:focus, .active {background-color: #444444;} /* Create an active/current tablink class */
+
+/* Style the tab content (reference to class=tabcontent)*/
+.tabcontent {
+	background-color: #111111;
+    display: none;
+    padding: 6px 12px;
+    border: 2px solid #222222;
+    border-top: none;
+	height: 100%;
+}

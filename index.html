@@ -1,0 +1,45 @@
+<html>
+<head>
+<!-- css files -->
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<!-- scripts -->
+<script src="tabs.js"></script>
+</head>
+
+<body>
+
+<div class="flex-container">
+<div class="flex-content">
+	<header>
+		<h1 align="left">OLLI PAGE</h1>
+	</header>
+
+	<nav>
+		<ul class="tab">
+			<li><a href="#" class="tablinks" onclick="openTab(event, 'Home')">Home</a></li>
+			<li><a href="#" class="tablinks" onclick="openTab(event, 'Projects')">Projects</a></li>
+			<li><a href="#" class="tablinks" onclick="openTab(event, 'Art')">Art</a></li>
+		</ul>
+	</nav>
+
+	<!-- **** HOME tab ************************************ -->  
+	<div id="Home" class="tabcontent">
+		<h3>Home</h3>
+		<p>Home is where the face is.</p>
+	</div>
+	<!-- **** PROJECTS tab ******************************** --> 
+	<div id="Projects" class="tabcontent">
+		<h3>Projects</h3>
+		<p>Current worked projects</p> 
+	</div>
+	<!-- **** ART tab ************************************* --> 
+	<div id="Art" class="tabcontent">
+		<h3>Art</h3>
+		<p>Relevant piece of art</p>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
